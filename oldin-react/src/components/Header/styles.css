@@ -1,0 +1,164 @@
+/* styles.css */
+
+/* Estilos globais para o header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    /* Adiciona a borda fina em cinza na parte inferior */
+}
+
+.logo {
+    width: 304px;
+    height: 75px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 60px;
+    /* Dobra o espaçamento entre os itens da NAV bar */
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.arrow-down-icon {
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+/* Dropdown */
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    list-style-type: none;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    /* Remove o padding para os itens do dropdown */
+    margin: 0;
+    /* Remove as margens para os itens do dropdown */
+    display: none;
+    z-index: 1;
+    border: 1px solid #ccc;
+    /* Adiciona uma borda em cinza ao dropdown */
+    border-radius: 5px;
+    /* Adiciona o arredondamento das bordas */
+    min-width: 200px;
+    /* Define a largura mínima do dropdown */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra discreta ao dropdown */
+}
+
+/* Estiliza os itens do dropdown */
+.dropdown-menu li {
+    font-size: 16px;
+    color: #24292e;
+    /* Cor do texto igual aos itens principais da nav bar */
+    padding: 12px 16px;
+    /* Adiciona espaçamento vertical e horizontal */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Centraliza horizontalmente os itens do dropdown */
+}
+
+/* Ative o dropdown ao fazer hover no elemento .dropdown-container */
+.dropdown-container:hover .dropdown-menu {
+    display: block;
+    border: 1px solid #ccc;
+}
+
+.dropdown-menu li:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    white-space: nowrap;
+    color: inherit;
+    /* Herda a cor do texto do elemento pai */
+}
+
+/* Estilos para a seção de login e cadastro */
+.login-register-section {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para os botões */
+.login-button,
+.register-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Centraliza o texto horizontalmente */
+    background-color: transparent;
+    border: 1px solid #d1d5da;
+    /* Adiciona a borda preta */
+    color: #24292e;
+    /* Cor do texto */
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 12px;
+    /* Define o espaçamento interno do botão */
+    border-radius: 5px;
+    /* Adiciona o arredondamento das bordas */
+}
+
+/* Adiciona espaçamento entre o ícone e o texto */
+.login-button span,
+.register-button span {
+    margin-left: 5px;
+}
+
+/* Estilo para o botão REGISTRAR-SE */
+.register-button {
+    margin-left: 10px;
+    /* Adiciona um espaço entre os botões */
+    background-color: #373665;
+    /* Cor de fundo do botão */
+    color: #ffffff;
+    /* Cor do texto */
+}
+
+.nav-item {
+    /* ... (seus estilos atuais) ... */
+    transition: color 0.3s ease;
+    /* Adiciona a animação de 0.5 segundos na cor */
+}
+
+.nav-item:hover {
+    color: #007BDA;
+    /* Altere a cor desejada para o hover */
+}
+
+/* Adiciona a animação de hover nos itens do dropdown */
+.dropdown-menu li {
+    /* ... (seus estilos atuais) ... */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Adiciona a animação de 0.5 segundos no fundo e na cor */
+}
+
+.dropdown-menu li:hover {
+    background-color: #f1f1f1;
+    /* Altere a cor de fundo desejada para o hover */
+    color: #007BDA;
+    /* Altere a cor do texto desejada para o hover */
+}

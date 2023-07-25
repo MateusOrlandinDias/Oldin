@@ -1,40 +1,39 @@
-/* PromotionSection.css */
+/* styles.css */
 
-.promotion-section {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .swiper-container {
-    width: 100%;
-  }
-  
-  .swiper-slide img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .swiper-button-next,
-  .swiper-button-prev {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    cursor: pointer;
-    z-index: 10;
-  }
-  
-  .swiper-button-next {
-    right: 10px;
-  }
-  
-  .swiper-button-prev {
-    left: 10px;
-  }
-  
+/* Estilizações para a seção de promoções */
+.promotions-section {
+  width: 100vw; /* Ocupa toda a largura da tela */
+  height: 60vh; /* Ocupa toda a altura da tela */
+  overflow: hidden; /* Remove barras de rolagem */
+  margin: 0; /* Remove margens */
+  display: flex; /* Centraliza o Swiper na tela */
+  justify-content: center; /* Centraliza o Swiper na tela */
+  align-items: center; /* Centraliza o Swiper na tela */
+}
+
+/* Estilizações para o Swiper */
+.mySwiper {
+  height: 100%; /* Ocupa metade da altura disponível na seção */
+  max-width: 100%; /* Limita a largura do Swiper */
+}
+
+/* Estilizações para os botões de navegação */
+.swiper-button-prev, .swiper-button-next {
+  width: 30px; /* Define a largura do botão */
+  height: 30px; /* Define a altura do botão */
+  background-color: transparent; /* Define a cor de fundo do botão */
+  color: #000000; /* Define a cor do ícone do botão */
+  opacity: 0.7; /* Define a opacidade do botão */
+  font-size: 16px; /* Define o tamanho do ícone */
+}
+
+/* Estilizações para os botões de navegação no hover */
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  opacity: 1; /* Aumenta a opacidade do botão ao passar o mouse */
+}
+
+.mySwiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

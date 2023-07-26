@@ -8,7 +8,7 @@
   margin: 0; /* Remove margens */
   display: flex; /* Centraliza o Swiper na tela */
   justify-content: center; /* Centraliza o Swiper na tela */
-  align-items: center; /* Centraliza o Swiper na tela */
+  align-items: center;
 }
 
 /* Estilizações para o Swiper */

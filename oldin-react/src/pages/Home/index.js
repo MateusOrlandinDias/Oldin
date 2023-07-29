@@ -3,6 +3,7 @@ import './styles.css';
 import Header from '../../components/Header';
 import Lettering from '../../components/Lettering';
 import PromotionSection from "../../components/Promotions-Section";
+import BenefitsSection from "../../components/Benefits-Section";
 
 import img1 from '../../assets/Promos/imagem_promocao_1.jpg';
 import img2 from '../../assets/Promos/imagem_promocao_2.jpg';
@@ -13,14 +14,14 @@ const images = [
     img2,
     img3
 ];
-const text = 'AVISO: ESTAREMOS FECHADOS NO FERIADO DO DIA XX/XX/XXXX.'
 
 export default function Landing() {
     return (
         <div>
             <Header />
-            <Lettering text={text}/>
+            <Lettering />
             <PromotionSection images={images}/>
+            <BenefitsSection />
         </div>
     );
 }

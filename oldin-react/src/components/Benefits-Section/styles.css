@@ -1,5 +1,6 @@
 /* styles.css */
 .benefits-section {
+    overflow: hidden; /* Impede a rolagem em qualquer direção */
     display: flex;
     justify-content: center;
     /* Centraliza horizontalmente */

@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignInAlt, faUserPlus, faUser, faShoppingCart, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 
 export default function UserLogin() {
-    const [loginUser, setLoginUser] = useState(true);
+    const [loginUser, setLoginUser] = useState(false);
 
     return (
         <div className="user-login-container">

@@ -29,7 +29,7 @@ export default function Footer() {
                 <div className="footer-info">
                     <p>Rua Limoeiro, 279 - Liberdade - Novo Hamburgo - RS</p>
                     <p>Email: oldin@oldin.com.br</p>
-                    <p>Telefone: (51) 3587.9095</p>
+                    <p>Telefone: (51) 3587-9095</p>
                 </div>
             </div>
         </footer>

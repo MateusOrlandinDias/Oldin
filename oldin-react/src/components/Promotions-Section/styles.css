@@ -1,38 +1,37 @@
-/* styles.css */
-
-/* Estilizações para a seção de promoções */
 .promotions-section {
-  width: 100vw; /* Ocupa toda a largura da tela */
-  height: 35vh; /* Ocupa toda a altura da tela */
-  overflow: hidden; /* Remove barras de rolagem */
-  margin: 0; /* Remove margens */
-  display: flex; /* Centraliza o Swiper na tela */
-  justify-content: center; /* Centraliza o Swiper na tela */
+  width: 100vw;
+  height: 35vh;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-/* Estilizações para o Swiper */
-.mySwiper {
-  height: 100%; /* Ocupa metade da altura disponível na seção */
-  max-width: 100%; /* Limita a largura do Swiper */
+
+.promotions-section .mySwiper {
+  height: 100%;
+  max-width: 100%;
 }
 
-/* Estilizações para os botões de navegação */
-.swiper-button-prev, .swiper-button-next {
-  width: 30px; /* Define a largura do botão */
-  height: 30px; /* Define a altura do botão */
-  background-color: transparent; /* Define a cor de fundo do botão */
-  color: #000000; /* Define a cor do ícone do botão */
-  opacity: 0.1; /* Define a opacidade do botão */
-  font-size: 16px; /* Define o tamanho do ícone */
+
+.promotions-section .swiper-button-prev,
+.promotions-section .swiper-button-next {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: #000000;
+  opacity: 0.1;
+  font-size: 16px;
 }
 
-/* Estilizações para os botões de navegação no hover */
-.swiper-button-prev:hover, .swiper-button-next:hover {
-  opacity: 0.5; /* Aumenta a opacidade do botão ao passar o mouse */
+
+.promotions-section .swiper-button-prev:hover,
+.promotions-section .swiper-button-next:hover {
+  opacity: 0.5;
 }
 
-.mySwiper img {
+.promotions-section .mySwiper img {
   width: 100%;
   height: 100%;
   object-fit: cover;

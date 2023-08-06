@@ -1,0 +1,36 @@
+.about-company-section{
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+}
+
+.about-company {
+    display: flex;
+    align-items: center;
+}
+
+.company-title {
+    margin: 5% 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    color: #373665;
+}
+
+.company-name {
+    font-weight: bold;
+}
+
+.company-text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 780px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-right: 10px;
+}

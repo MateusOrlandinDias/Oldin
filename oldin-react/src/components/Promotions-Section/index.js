@@ -25,7 +25,7 @@ export default function PromotionsSection({ images }) {
       >
         {images.map((image, index) => (
           <SwiperSlide key={index}>
-            <img src={image} alt={`Promotion ${index + 1}`} />
+            <img src={image} alt={`Promoção ${index + 1}`} />
           </SwiperSlide>
         ))}
       </Swiper>

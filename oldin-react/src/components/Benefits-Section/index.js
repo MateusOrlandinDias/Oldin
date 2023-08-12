@@ -35,7 +35,7 @@ export default function BenefitsSection() {
                     </span>
                     <p className='benefit-text'>
                         <small>FAZENDO HISTÓRIA</small>
-                         DESDE xxxx 
+                         DESDE 2001 
                     </p>
                 </li>
             </ul>

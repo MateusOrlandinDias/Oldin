@@ -1,7 +1,7 @@
 import React from "react";
 import './styles.css';
-import Header from '../../components/Header';
-import Lettering from '../../components/Lettering';
+import Header from '../../components/Sections/Header';
+import Lettering from '../../components/Secondary-Components/Lettering';
 
 export default function WorkWithUs() {
     return (

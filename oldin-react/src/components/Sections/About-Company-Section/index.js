@@ -1,7 +1,7 @@
 import React from "react";
 import './styles.css';
 
-import PhotosCompany from "../Photos-Company";
+import PhotosCompany from "../../Secondary-Components/Photos-Company";
 
 export default function AboutCompanySection({photos}) {
     return (

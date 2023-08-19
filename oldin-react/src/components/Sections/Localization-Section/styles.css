@@ -1,0 +1,33 @@
+.localization-section {
+    margin: 20px;
+    padding: 20px;
+}
+
+.section-title {
+    color: #373665;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-subtitle {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.map-container iframe {
+    width: 45%;
+    height: 450px;
+    border: 1px solid #ccc;
+}
+
+iframe {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

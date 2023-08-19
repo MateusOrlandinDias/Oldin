@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './styles.css';
-import logo from '../../assets/logo-oldin.png';
+import logo from '../../../assets/logo-oldin.png';
 import { FiChevronDown } from 'react-icons/fi';
 import { Link, useLocation } from 'react-router-dom';
-import UserLogin from '../UserLogin';
+import UserLogin from '../../Secondary-Components/UserLogin';
 
 export default function Header() {
     const location = useLocation();
@@ -45,13 +45,6 @@ export default function Header() {
                                 <FiChevronDown className="arrow-down-icon" />
                             </div>
                             <ul className="dropdown-menu">
-                                <li className={activeItem === '/feedback' ? 'active' : ''}>
-                                    <Link
-                                        to="/feedback"
-                                        onClick={() => handleItemClick('/feedback')}>
-                                        FEEDBACK
-                                    </Link>
-                                </li>
                                 <li className={activeItem === '/trabalhe-conosco' ? 'active' : ''}>
                                     <Link
                                         to="/trabalhe-conosco"

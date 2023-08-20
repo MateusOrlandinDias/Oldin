@@ -24,6 +24,7 @@ export default function Landing() {
             <Lettering />
             <PromotionSection images={images}/>
             <BenefitsSection />
+            <ProductTypesSection />
             <Footer />
         </div>
     );

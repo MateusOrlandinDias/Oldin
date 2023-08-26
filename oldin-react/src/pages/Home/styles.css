@@ -1,11 +1,9 @@
-/* styles.css */
-
 .header {
-    position: relative; /* Adicione essa propriedade */
-    z-index: 100; /* Defina um valor maior para o z-index do header */
+    position: relative;
+    z-index: 100;
   }
   
   .promotions-section {
-    position: relative; /* Adicione essa propriedade */
-    z-index: 50; /* Defina um valor menor para o z-index da PromotionSection */
+    position: relative;
+    z-index: 50;
   }

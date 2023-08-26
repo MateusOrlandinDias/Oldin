@@ -1,5 +1,5 @@
 .card-product-type {
-    width: 550px;
+    width: 40%;
     height: 200px;
     border-radius: 20px;
     background: #f5f5f5;
@@ -8,7 +8,7 @@
     border: 2px solid #c3c6ce;
     transition: 0.5s ease-out;
     overflow: visible;
-    margin: 10px 20px;
+    margin: 12px 20px;
 }
 
 .card-product-type-details {
@@ -48,4 +48,10 @@
 .card-product-type:hover .product-type-card-button {
     transform: translate(-50%, 50%);
     opacity: 1;
+}
+
+.card-product-type-details img{
+    max-width: 400px;
+    max-height: 150px;
+    overflow: hidden;
 }

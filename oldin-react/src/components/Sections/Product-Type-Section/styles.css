@@ -1,15 +1,21 @@
 .product-types-section {
+    width: 100;
     margin-bottom: 40px;
     text-align: center;
-    background-color: brown;
+    justify-content: center;
 }
 
 .product-types-row {
     display: flex;
+    justify-content: center;
 }
 
 .other-product {
     display: flex;
     justify-content: center;
     flex: 2;
+}
+
+.other-product .card-product-type{
+    width: calc(80% + 100px);
 }

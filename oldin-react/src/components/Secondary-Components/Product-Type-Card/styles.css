@@ -41,6 +41,7 @@
 }
 
 .card-product-type:hover {
+    text-decoration: underline #373665;
     border-color: #373665;
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
 }

@@ -1,0 +1,11 @@
+.filter-products-section {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

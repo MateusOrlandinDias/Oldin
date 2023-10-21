@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const text = 'AVISO: ESTAREMOS FECHADOS NO FERIADO DO DIA XX/XX/XXXX.'
+const text = 'AVISO: O site está em manutenção.'
 
 export default function Lettering(){
     return(

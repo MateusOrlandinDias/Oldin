@@ -3,6 +3,8 @@ import './styles.css';
 import Header from '../../components/Sections/Header';
 import Lettering from '../../components/Secondary-Components/Lettering';
 import FilterProductsSection from '../../components/Sections/Filter-Products-Section';
+import ProductsSection from '../../components/Sections/Products-Section';
+import Footer from "../../components/Sections/Footer";
 
 export default function Products() {
     return (
@@ -10,6 +12,8 @@ export default function Products() {
             <Header />
             <Lettering />
             <FilterProductsSection />
+            <ProductsSection />
+            <Footer />
         </div>
     );
 }

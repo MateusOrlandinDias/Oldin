@@ -5,6 +5,7 @@ import Company from "./pages/Company";
 import Products from "./pages/Products";
 import WorkWithUs from "./pages/Work-with-us";
 import Contact from "./pages/Contact";
+import Product from "./pages/Product";
 
 export default function RoutesApp() {
     return (
@@ -15,6 +16,7 @@ export default function RoutesApp() {
                 <Route path="/produtos" exact element={<Products />} />
                 <Route path="/trabalhe-conosco" exact element={<WorkWithUs />} />
                 <Route path="/contato" exact element={<Contact />} />
+                <Route path="/produto/:productID" exact element={<Product />} />
             </Routes>
         </BrowserRouter>
     );

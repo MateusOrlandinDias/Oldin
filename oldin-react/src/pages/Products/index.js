@@ -5,6 +5,7 @@ import Lettering from '../../components/Secondary-Components/Lettering';
 import FilterProductsSection from '../../components/Sections/Filter-Products-Section';
 import ProductsSection from '../../components/Sections/Products-Section';
 import Footer from "../../components/Sections/Footer";
+import productsObject from '../../assets/products';
 
 export default function Products() {
     return (
@@ -12,7 +13,7 @@ export default function Products() {
             <Header />
             <Lettering />
             <FilterProductsSection />
-            <ProductsSection />
+            <ProductsSection products={productsObject}/>
             <Footer />
         </div>
     );

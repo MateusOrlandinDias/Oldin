@@ -2,13 +2,16 @@ const products = [
     {
         title: 'Grampo galvanizado',
         description: 'Product description 1',
-        price: 'R$199.99', lastPrice: 'R$252.12',
-        imageSource: 'https://i.ibb.co/ZGSCcRM/Product-1.jpg'
+        price: 'R$199.99', 
+        lastPrice: 'R$252.12',
+        imageSource: 'https://i.ibb.co/ZGSCcRM/Product-1.jpg',
+        isPromotion: true
     },
     { 
         title: 'Product Title 2', 
         description: 'Product description 2', 
-        price: 'R$299.99', 
+        price: 'R$299.99',
+        lastPrice: 'R$255.99',
         imageSource: 'image2.jpg' 
     },
     { 

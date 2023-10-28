@@ -2,9 +2,8 @@
 import React from 'react';
 import './styles.css';
 import ProductCard from '../../Secondary-Components/Product-Card';
-import products from '../../../assets/products';
 
-export default function ProductSection() {
+export default function ProductSection({products}) {
     return (
         <div className="product-section">
             {products.map((product, index) => (
@@ -15,6 +14,7 @@ export default function ProductSection() {
                         price={product.price}
                         lastPrice={product.lastPrice}
                         imageSource={product.imageSource}
+                        isPromotion={product.isPromotion}
                     />
                 </div>
             ))}

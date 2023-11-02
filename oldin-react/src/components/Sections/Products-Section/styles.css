@@ -1,4 +1,3 @@
-/* styles.css */
 .product-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -8,5 +7,17 @@
 
 .product-card-container {
     display: flex;
+    justify-content: center;
+}
+
+.filter-products-div {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }

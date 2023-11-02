@@ -16,9 +16,9 @@ export default function ProductCard({ title, description, price, lastPrice, imag
                 </div>
                 <div className="card-footer-product">
                     {lastPrice && (
-                        <span className="text-last-price-product">{lastPrice}</span>
+                        <span className="text-last-price-product">R$ {lastPrice}</span>
                     )}
-                    <span className="text-title-product">{price}</span>
+                    <span className="text-title-product">R$ {price}</span>
                 </div>
             </Link>
         </div >

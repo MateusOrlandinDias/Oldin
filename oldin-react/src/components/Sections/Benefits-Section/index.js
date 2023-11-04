@@ -13,9 +13,9 @@ export default function BenefitsSection() {
                         <FaTruck className='benefit-icon' />
                     </span>
                     <p className='benefit-text'>
-                        <small>FRETE</small>
-                         Grátis* 
-                        <small className='benefit-info'>*A partir de R$100,00</small>
+                        <small>Temos</small>
+                         FRETE 
+                        <small className='benefit-info'>*transportadora</small>
                     </p>
                 </li>
                 <hr className='separator' />

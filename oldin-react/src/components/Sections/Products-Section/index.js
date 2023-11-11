@@ -5,6 +5,7 @@ import api from '../../../services/api';
 import FilterButton from '../../Secondary-Components/Filter-button';
 import { AiOutlineSearch } from 'react-icons/ai';
 import ClearFilterButton from '../../Secondary-Components/Clear-Filter-Button';
+import { Link } from 'react-router-dom';
 
 export default function ProductSection() {
     const [searchInput, setSearchInput] = useState('');
@@ -125,12 +126,7 @@ export default function ProductSection() {
                     filter.map((product, index) => (
                         <div key={index} className="product-card-container">
                             <ProductCard
-                                title={product.name}
-                                description={product.description}
-                                price={product.price}
-                                lastPrice={product.lastPrice}
-                                imageSource={product.imageURL}
-                                isPromotion={product.isPromotion}
+                                product={product}
                             />
                         </div>
                     ))

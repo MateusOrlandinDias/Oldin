@@ -5,7 +5,6 @@ import api from '../../../services/api';
 import FilterButton from '../../Secondary-Components/Filter-button';
 import { AiOutlineSearch } from 'react-icons/ai';
 import ClearFilterButton from '../../Secondary-Components/Clear-Filter-Button';
-import { Link } from 'react-router-dom';
 
 export default function ProductSection() {
     const [searchInput, setSearchInput] = useState('');

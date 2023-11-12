@@ -16,7 +16,7 @@ export default function RoutesApp() {
                 <Route path="/produtos" exact element={<Products />} />
                 <Route path="/trabalhe-conosco" exact element={<WorkWithUs />} />
                 <Route path="/contato" exact element={<Contact />} />
-                <Route path="/produto/:productID" exact element={<Product />} />
+                <Route path="/produto/:id" exact element={<Product />} />
             </Routes>
         </BrowserRouter>
     );

@@ -36,6 +36,7 @@
     font-size: 16px;
     color: #555;
     margin-bottom: 20px;
+    word-wrap: break-word;
 }
 
 .product-price {
@@ -52,4 +53,16 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+}
+
+.product-image {
+    max-width: 70vh; /* Ajuste conforme necessário */
+    max-height: 70vh; /* Ajuste conforme necessário */
+    object-fit: cover; /* ou 'cover' dependendo do efeito desejado */
+}
+
+.product-thumb-image {
+    width: 100px; /* Ajuste conforme necessário */
+    height: 100px; /* Ajuste conforme necessário */
+    object-fit: cover; /* ou 'contain' dependendo do efeito desejado */
 }

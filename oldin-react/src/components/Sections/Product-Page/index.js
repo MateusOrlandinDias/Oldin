@@ -42,9 +42,13 @@ export default function ProductPage() {
                         thumbs={{ swiper: thumbsSwiper.current }}
                         className="product-swiper"
                     >
-                        {product.listImagesURLs && product.listImagesURLs.map((image, index) => (
+                        {product.imagesURLs && product.imagesURLs.map((image, index) => (
                             <SwiperSlide key={index}>
-                                <img src={image} alt={`Product ${index}`} />
+                                <img
+                                    src={image}
+                                    alt={`Product ${index}`}
+                                    className="product-image"
+                                />
                             </SwiperSlide>
                         ))}
                     </Swiper>
@@ -57,9 +61,13 @@ export default function ProductPage() {
                         watchSlidesProgress
                         className="product-thumbs"
                     >
-                        {product.listImagesURLs && product.listImagesURLs.map((image, index) => (
+                        {product.imagesURLs && product.imagesURLs.map((image, index) => (
                             <SwiperSlide key={index}>
-                                <img src={image} alt={`Product ${index}`} />
+                                <img
+                                    src={image}
+                                    alt={`Product ${index}`}
+                                    className="product-thumb-image"
+                                />
                             </SwiperSlide>
                         ))}
                     </Swiper>
@@ -68,7 +76,7 @@ export default function ProductPage() {
             <div className="product-details">
                 {product && (
                     <>
-                        <h2 className="product-title">{product.title}</h2>
+                        <h2 className="product-title">{product.name}</h2>
                         <p className="product-description">{product.description}</p>
                         <div className="product-price">R$ {product.price}</div>
                         <button className="product-buy-button">Comprar</button>

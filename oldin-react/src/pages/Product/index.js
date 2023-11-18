@@ -3,6 +3,7 @@ import './styles.css';
 import Header from '../../components/Sections/Header';
 import Lettering from '../../components/Secondary-Components/Lettering';
 import ProductPage from "../../components/Sections/Product-Page";
+import Footer from "../../components/Sections/Footer";
 
 export default function Product() {
     return (
@@ -10,6 +11,7 @@ export default function Product() {
             <Header />
             <Lettering />
             <ProductPage />
+            <Footer />
         </div>
     );
 }

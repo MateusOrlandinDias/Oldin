@@ -125,12 +125,7 @@ export default function ProductSection() {
                     filter.map((product, index) => (
                         <div key={index} className="product-card-container">
                             <ProductCard
-                                title={product.name}
-                                description={product.description}
-                                price={product.price}
-                                lastPrice={product.lastPrice}
-                                imageSource={product.imageURL}
-                                isPromotion={product.isPromotion}
+                                product={product}
                             />
                         </div>
                     ))

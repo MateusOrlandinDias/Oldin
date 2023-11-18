@@ -7,8 +7,10 @@ import { faSignInAlt, faUserPlus, faUser, faShoppingCart, faSignOutAlt } from '@
 export default function UserLogin() {
     const [loginUser, setLoginUser] = useState(false);
 
+    const disabled = true;
+
     return (
-        <div className="user-login-container">
+        <div className={`user-login-container ${disabled ? 'disabled' : ''}`} style={{ position: 'relative' }}>
             {loginUser ? (
                 <div className="user-profile">
                     <div className="user-info">

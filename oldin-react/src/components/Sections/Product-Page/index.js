@@ -32,7 +32,6 @@ export default function ProductPage() {
     }, [updateData]);
 
     function whatsappMessage() {
-        console.log('a');
         var phoneNumber = '555135879095';
     
         var message = "Olá, estou interessado em comprar um produto.\n" +

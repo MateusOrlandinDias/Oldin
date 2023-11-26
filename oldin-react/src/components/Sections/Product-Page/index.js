@@ -26,11 +26,22 @@ export default function ProductPage() {
             api.get(`/product/${id}`)
                 .then(response => {
                     setProduct(response.data);
-                    console.log(response.data);
                 });
             setUpdateData(false);
         }
     }, [updateData]);
+
+    function whatsappMessage() {
+        var phoneNumber = '555135879095';
+    
+        var message = "Olá, estou interessado em comprar um produto.\n" +
+                       "Produto: " + product.name + "\n" +
+                       "Preço no site: " + product.price;
+    
+        var linkWhatsApp = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+    
+        window.open(linkWhatsApp, '_blank');
+    }
 
     return (
         <div className="product-page">
@@ -79,7 +90,7 @@ export default function ProductPage() {
                         <h2 className="product-title">{product.name}</h2>
                         <p className="product-description">{product.description}</p>
                         <div className="product-price">R$ {product.price}</div>
-                        <button className="product-buy-button">Comprar</button>
+                        <button class="product-buy-button" onClick={whatsappMessage}>Comprar</button>
                     </>
                 )}
             </div>

@@ -1,0 +1,47 @@
+.work-with-us-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    min-height: 85vh;
+}
+
+.img-work {
+    max-width: 50%;
+    height: auto;
+}
+
+.about-vacancies {
+    max-width: 45%;
+}
+
+.title-work {
+    font-size: 2em;
+    color: #373665;
+}
+
+.text-work {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 2px;
+}
+
+.work-mail {
+    text-decoration: none;
+}
+
+.button-work {
+    margin-top: 20px;
+    background-color: #373665;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-work:hover {
+    background-color: #6564a1;
+}
